@@ -1,0 +1,213 @@
+[
+	{
+		"_name": "Google",
+		"_alias": "Google",
+		"_description": "Google Search",
+		"_icon": "https://www.google.com/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://www.google.com/#q={z:title}+{rft:aufirst?}+{rft:aulast?}",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#"
+		},
+		"_iconSourceURI": "https://www.google.com/favicon.ico"
+	},
+	{
+		"_name": "Wikipedia",
+		"_alias": "Wikipedia",
+		"_description": "Wikipedia",
+		"_icon": "https://zh.wikipedia.org/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://zh.wikipedia.org/wiki/{z:title}",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://zh.wikipedia.org/favicon.ico"
+	},
+	{
+		"_name": "Google Scholar",
+		"_alias": "Google Scholar",
+		"_description": "Google Scholar Search",
+		"_icon": "http://scholar.google.com/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "http://scholar.google.com/scholar?as_q=&as_epq={z:title}&as_occt=title&as_sauthors={rft:aufirst?}+{rft:aulast?}&as_ylo={z:year?}&as_yhi={z:year?}&as_sdt=1.&as_sdtp=on&as_sdtf=&as_sdts=22&",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:journal",
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "http://scholar.google.com/favicon.ico"
+	},
+	{
+		"_name": "Google Scholar - Title Only",
+		"_alias": "Google Scholar",
+		"_description": "Google Scholar Search - Title Only",
+		"_icon": "http://blogs.bellevue.edu/library/wp-content/uploads/2014/04/ghat.png",
+		"_hidden": false,
+		"_urlTemplate": "http://scholar.google.com/scholar?as_q=&as_epq={z:title}&as_occt=title&as_sdt=1.&as_sdtp=on&as_sdtf=&as_sdts=22&",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"rft": "info:ofi/fmt:kev:mtx:journal",
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "http://blogs.bellevue.edu/library/wp-content/uploads/2014/04/ghat.png"
+	},
+	{
+		"_name": "CrossRef",
+		"_alias": "CrossRef",
+		"_description": "CrossRef Search",
+		"_icon": "https://www.crossref.org/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "http://crossref.org/openurl?{z:openURL}&pid=zter:zter321",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "http://crossref.org/favicon.ico"
+	},
+	{
+		"_name": "百度学术搜索",
+		"_alias": "BaiDu",
+		"_description": "百度学术搜索",
+		"_icon": "http://xueshu.baidu.com/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://xueshu.baidu.com/s?wd={z:title}&rsv_bp=0&tn=SE_baiduxueshu_c1gjeupa&rsv_spt=3&ie=utf-8&f=8&rsv_sug2=0&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "http://xueshu.baidu.com/favicon.ico"
+	},
+	{
+		"_name": "CNKI搜索",
+		"_alias": "CNKI",
+		"_description": "CNKI搜索",
+		"_icon": "http://cnki.net/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "http://kns.cnki.net/kns/brief/default_result.aspx?txt_1_sel=SU%24%=%7C&txt_1_value1={z:title}&txt_1_special1=%&txt_extension=&currentid=txt_1_value1&dbJson=coreJson&dbPrefix=SCDB&db_opt=CJFQ,CDFD,CMFD,CPFD,IPFD,CCND,CCJD&singleDB=SCDB&db_codes=CJFQ,CDFD,CMFD,CPFD,IPFD,CCND,CCJD&singleDBName=againConfigJson=false&action=scdbsearch&ua=1.11",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "http://cnki.net/favicon.ico"
+	},
+	{
+		"_name": "万方搜索",
+		"_alias": "万方搜索",
+		"_description": "万方搜索",
+		"_icon": "http://www.wanfangdata.com.cn/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "http://www.wanfangdata.com.cn/search/searchList.do?searchType=all&showType=&pageSize=&searchWord={z:title}&isTriggerTag=",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "http://www.wanfangdata.com.cn/favicon.ico"
+	},
+	{
+		"_name": "Bing微软学术",
+		"_alias": "微软学术",
+		"_description": "Bing学术",
+		"_icon": "https://xue.glgoo.org/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://cn.bing.com/academic/search?q={z:title}",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://xue.glgoo.org/favicon.ico"
+	},
+	{
+		"_name": "Connected Papers",
+		"_alias": "Connected Papers",
+		"_description": "Explore connected papers in a visual graph",
+		"_icon": "https://pbs.twimg.com/profile_images/1267529009409208325/avWQ0zGg_400x400.jpgo",
+		"_hidden": false,
+		"_urlTemplate": "https://www.connectedpapers.com/search?q={z:title}",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://pbs.twimg.com/profile_images/1267529009409208325/avWQ0zGg_400x400.jpg"
+	},
+	{
+		"_name": "Zlibrary Book",
+		"_alias": "Zlibrary Book",
+		"_description": "Zlibrary Book",
+		"_icon": "https://z-lib.org/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://b-ok.cc/s/{z:title}",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://z-lib.org/favicon.ico"
+	},
+	{
+		"_name": "SoBooks",
+		"_alias": "SoBooks",
+		"_description": "SoBooks",
+		"_icon": "https://sobooks.cc/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://sobooks.cc/search/{z:title}",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://sobooks.cc/favicon.ico"
+	},
+	{
+		"_name": "豆瓣",
+		"_alias": "豆瓣",
+		"_description": "豆瓣",
+		"_icon": "https://www.douban.com/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://www.douban.com/search?q={z:title}",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://www.douban.com/favicon.ico"
+	},
+	{
+		"_name": "豆瓣读书",
+		"_alias": "豆瓣读书",
+		"_description": "豆瓣读书",
+		"_icon": "https://www.douban.com/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://search.douban.com/book/subject_search?search_text={z:title}&cat=1001",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://www.douban.com/favicon.ico"
+	},
+	{
+		"_name": "豆瓣电影",
+		"_alias": "豆瓣电影",
+		"_description": "豆瓣电影",
+		"_icon": "https://www.douban.com/favicon.ico",
+		"_hidden": false,
+		"_urlTemplate": "https://search.douban.com/movie/subject_search?search_text={z:title}&cat=1002",
+		"_urlParams": [],
+		"_urlNamespaces": {
+			"z": "http://www.zotero.org/namespaces/openSearch#",
+			"": "http://a9.com/-/spec/opensearch/1.1/"
+		},
+		"_iconSourceURI": "https://www.douban.com/favicon.ico"
+	}
+]
